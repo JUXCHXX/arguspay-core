@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: arguspay-postgres
+    environment:
+      POSTGRES_DB: arguspay
+      POSTGRES_USER: arguspay
+      POSTGRES_PASSWORD: arguspay
+    ports:
+      - "5432:5432"
+    volumes:
+      - arguspay_pgdata:/var/lib/postgresql/data
+
+volumes:
+  arguspay_pgdata:

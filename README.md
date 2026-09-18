@@ -267,17 +267,6 @@ pnpm dev
 
 El servidor de Vite usa un proxy de `/api` hacia `http://localhost:8080`, así que no hace falta configurar CORS.
 
-## Roadmap
-
-- [x] Dashboard web desacoplado (React + Vite)
-- [ ] Alias por cuenta y transferencias por correo
-- [ ] Rate limiting distribuido (Redis) para varias instancias
-- [ ] Refresh tokens y revocación
-- [ ] Paginación en el historial de movimientos
-- [ ] Despliegue
-
----
-
 <div align="center">
 
 Hecho por [JUXCHXX](https://github.com/JUXCHXX)

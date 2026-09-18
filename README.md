@@ -18,7 +18,7 @@
 
 <br/>
 
-[Características](#características) · [Stack](#stack) · [Arquitectura](#arquitectura) · [Cómo correrlo](#cómo-correrlo) · [Endpoints](#endpoints) · [Tests](#tests) · [Dashboard](#dashboard-web)
+[Vista previa](#vista-previa) · [Características](#características) · [Stack](#stack) · [Arquitectura](#arquitectura) · [Cómo correrlo](#cómo-correrlo) · [Endpoints](#endpoints) · [Tests](#tests) · [Dashboard](#dashboard-web)
 
 </div>
 
@@ -27,6 +27,20 @@
 ArgusPay Core administra **cuentas y saldos** con depósitos, retiros y transferencias atómicas entre cuentas. Es un servicio pensado para ser consumido por un frontend, una app móvil o una integración externa.
 
 El foco del proyecto es lo que separa un CRUD de un sistema de pagos: **idempotencia, atomicidad, control de concurrencia y seguridad**.
+
+## Vista previa
+
+Así se ve el [dashboard web](https://github.com/JUXCHXX/arguspay-dashboard) consumiendo esta API:
+
+<div align="center">
+
+<img src="assets/dashboard.png" alt="Pantalla principal del dashboard de ArgusPay" width="900" />
+
+<br/><br/>
+
+<img src="assets/demo.gif" alt="Demo del dashboard de ArgusPay: login, depósito, retiro y transferencia" width="900" />
+
+</div>
 
 ## Características
 
